@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php
+    include 'verifica.php';
     include 'cabecalho.php';
     include 'menu.php';
     include 'rodape.php';

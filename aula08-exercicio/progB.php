@@ -8,6 +8,7 @@
 </head>
 <body>
 <?php
+    include 'verifica.php';
     include 'cabecalho.php';
     echo '<h2>Opção B</h2>';
     include 'menu.php';
