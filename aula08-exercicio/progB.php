@@ -11,6 +11,7 @@
     include 'cabecalho.php';
     echo '<h2>Opção B</h2>';
     include 'menu.php';
+    echo '<p><a href="principal.php">Volta para programa principal</a></p>';
     include 'rodape.php';
     ?>
 </body>
