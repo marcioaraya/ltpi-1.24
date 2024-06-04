@@ -2,15 +2,16 @@
 # endereço do servidor de banco de dados
 $host = '127.0.0.1';
 # porta utilizada pelo MySQL
-$port = '3307';
+
+$port = '3306';
 # database ou schema
 $db = 'usuarios';
 # usuario
 #    não é recomendado utilizar o usuário 'root'!!
 #    É preferível criar um usuário específico para cada aplicação
-$user = 'root';
+$user = 'aplicacao_agenda';
 # senha
-$password = '';
+$password = 'agenda123';
 
 $dsn = "mysql:host=$host:$port;dbname=$db;charset=UTF8";
 
