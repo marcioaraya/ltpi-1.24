@@ -8,8 +8,8 @@
 </head>
 <body>
     <form action="valida.php" method="POST">
-        <label for="id_usuario">Usuário</label>
-        <input type="text" name="usuario" id="id_usuario">
+        <label for="id_usuario">E-mail</label>
+        <input type="text" name="email" id="id_usuario">
         <br>
         <label for="id_senha">Senha</label>
         <input type="password" name="senha" id="id_senha">
